@@ -1,32 +1,120 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Image Basics</title>
-	
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
-	
-	<style type="text/css">
-	
-		body{ background-color: #949495}
-		font-family: 'Courier Prime', monospace;
-		font-weight: 400;
-	
+	<title>Color Scheme</title>
+
+	<style>
+
+	body{
+			font-family: sans-serif;
+			font-size: 18px;
+	}
+		
+    .outer{
+      text-align: center;
+      
+      
+    }
+  	.page{
+  		width:750px;
+  		display: inline-block;
+  		text-align:left;
+
+  		padding:10px;
+  		border:solid 1px;
+  	}
+  	.heading{
+  		font-size: 24px;
+  		font-weight: bold;
+  		padding-top:20px;
+  		padding-bottom: 20px;
+  	}
+
+  	.pagefont{
+  		font-family: helvetica, sans-serif;
+  	}
+
+  	.swatch{
+  		width:40px;
+  		height:40px;
+  		border:solid 1px;
+  		box-shadow: 3px 3px 2px #999;
+  		display: inline-block;
+  	}
+
+  	.brandcolor1{
+  		background-color: #ff6600;
+  	}
+  	.brandcolor2{
+  		background-color: #49332a;
+  	}
+  	.brandcolor3{
+  		background-color: #F0F;
+  	}
+
+  	.menucolor1{
+  		background-color: #ffffff;
+  	}
+  	.menucolor2{
+  		background-color: #f5f1eb;
+  	}
+  	.menucolor3{
+  		background-color: red;
+  	}
+
+  	.pagecolor1{
+  		background-color: #FFF;
+  	}
+  	.pagecolor2{
+  		background-color: #f5f1eb;
+  	}
+  	.pagecolor3{
+  		background-color: skyblue;
+  	}
+
+  	.textcolor1{
+  		background-color: #444;
+  	}
+  	.textcolor2{
+  		background-color: #6c6b69;
+  	}
+  	.textcolor3{
+  		background-color: #fff;
+  	}
+
+
+
+
 	</style>
 </head>
-
 <body>
-	<img src="img/header.jpg" width= "100%" height = "auto"/>
-	
-<p>I am water</p>
 
-<p><br>Soft enough
-<br>To offer life
-<br>Tough enough
-<br>To drown it away </p>
+	<div class="outer">
+		<div class="page">
+			<div class="heading"><span class="font-family">Hermes</span></div> 
+			<div class="heading">Font-Family: <span class="font-family">Helvetica</span></div> 
+           	<div class="heading">Brand Colors:</div> 
+           	<div class="swatch brandcolor1"></div>
+			<div class="swatch brandcolor2"></div>
+          
+           	
+           	<div class="heading">Menu:</div> 
+           	<div class="swatch menucolor1"></div>
+           	<div class="swatch menucolor2"></div>
 
--rupi kaur
+           	<div class="heading">Page:</div> 
+           	<div class="swatch pagecolor1"></div>
+           	<div class="swatch pagecolor2"></div>
+
+           	<div class="heading">Text:</div> 
+           	<div class="swatch textcolor1"></div>
+           	<div class="swatch textcolor2"></div>
+           	<div class="swatch textcolor3"></div>
+    
+
+		</div>
+
+	</div>
+
 </body>
 </html>
