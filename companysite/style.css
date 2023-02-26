@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f6f1eb;
+  font-family: "Courier New"
+  font-size: 12px;
+}
+.outer{
+  text-align:center;
+}
+.page{
+  display:inline-block;
+  max-width:1400px;
+  height:99vh;
+  background-color: #f6f1eb;
+  width: 100%;
+}
+.upline{
+  background-color: #f6f1eb;
+  height: 5px;
+}
+.topofpage{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:flex-start;
+  height: 70px;
+  align-items: center;
+}
+.menu_img{
+width: 20px;
+margin-left: 40px;
+}
+.menu_img{
+width: 50%;
+}
+
+.search_img{
+width: 40px;
+margin-left: -80px;
+}
+.search_img{
+width: 50%;
+}	
+	
+.logo_img{
+ width: 20px;
+ flex-grow: 1;
+}
+.logo_img{
+  width: 150%;
+
+}
+
+.account_img{
+width: 80px;
+margin-left: 40px;
+}
+.account_img{
+width: 45%;
+}
+
+.cart_img{
+width: 40px;
+align-content: flex-end;
+margin-right: 40px;
+}
+.cart_img{
+  width: 35%;
+}
+
+.content{
+  background-color: #f6f1ec;
+}
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+</body>
+</html>
